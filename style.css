@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+h1 {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  font-size: 50px;
+  padding: 1rem;
+}
+div {
+  width: 600px;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+lable,
+input {
+  display: block;
+  margin: auto;
+}
+lable {
+  font-size: 20px;
+  margin: 1rem 0 0.3rem;
+}
+lable {
+  font-size: 35px;
+  margin-top: 2rem;
+}
+input {
+  width: 50%;
+  border: 2px solid black;
+  padding: 0.3rem;
+  border-radius: 0.7rem;
+}
+button {
+  margin: 2rem 0.7rem;
+  padding: 0.4rem;
+  border-radius: 10px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-size: 16px;
+  cursor: pointer;
+}
+.clear-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+button:hover {
+  font-size: 20px;
+}
+
+p {
+  font-size: 30px;
+  margin-top: 0;
+}
+footer {
+  background-color: black;
+  height: 10%;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+footer div {
+  transform: translateX(1.5rem);
+}
+li {
+  display: inline;
+  margin: 1rem;
+  cursor: pointer;
+}
+a {
+  color: white;
+  font-size: 16px;
+}
+a:hover {
+  font-size: 20px;
+}
